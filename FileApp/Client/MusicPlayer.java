@@ -1,3 +1,13 @@
+
+/** 
+ * @author: Ashwin Kamalakannan
+ * last Edited: October 28, 2019
+ * 
+ * Music Player class. Acts as the client in the Java RMI system. 
+ * Will open a JFrame for the user, all functions can be performed in the window.
+ * jaco mp3 library used for playing .mp3 file type.
+ */
+
 import java.io.*;
 import java.nio.file.Files;
 import java.awt.image.BufferedImage;

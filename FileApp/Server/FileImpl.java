@@ -1,3 +1,12 @@
+
+/**
+ * @author: Ashwin Kamalakannan
+ * last Edited: October 28, 2019
+ * 
+ * Contains the implementations of the overriden methods from the FileInterface
+ * inferface. Will be used for all server side logic.
+ */
+
 import java.io.*;
 import java.net.URL;
 import java.awt.image.BufferedImage;
@@ -6,10 +15,6 @@ import java.util.ArrayList;
 import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
 
-/**
- * Contains the implementations of the overriden methods from the FileInterface
- * inferface.
- */
 public class FileImpl extends UnicastRemoteObject implements FileInterface {
 
     private String name;

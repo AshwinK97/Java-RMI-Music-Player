@@ -1,3 +1,12 @@
+
+/** 
+ * @author: Ashwin Kamalakannan
+ * last Edited: October 28, 2019
+ * 
+ * File server class used to run the file server, 
+ * register a folder on rmi registry and enable security manager.
+ */
+
 import java.io.*;
 import java.rmi.*;
 
